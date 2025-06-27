@@ -33,13 +33,11 @@
       <Router>
 
         <Routes>
-
           <Route path="/" element={<Landing />} />
           <Route path="/About" element={<About />} />
           <Route path="/Tool" element={<Tool />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
-
         </Routes>
         
       </Router>
