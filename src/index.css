@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'Monasans';
+  src: url('/fonts/Monasans-Regular.ttf') format('truetype');
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
+
