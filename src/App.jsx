@@ -5,6 +5,8 @@
   import { useEffect, useState } from 'react';
   import Tool from './pages/Tool';
   import './index.css'; 
+  import Contact from './pages/Contact';
+
 
   function App() {
     const [loading, setLoading] = useState(true);
@@ -35,6 +37,7 @@
           <Route path="/" element={<Landing />} />
           <Route path="/About" element={<About />} />
           <Route path="/Tool" element={<Tool />} />
+          <Route path="/Contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
 
         </Routes>

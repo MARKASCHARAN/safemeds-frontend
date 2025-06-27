@@ -11,12 +11,12 @@ const HeroSection = () => {
     >
       
  <motion.div 
-  className="absolute top-6 left-6 z-50"
+  className="absolute top-6 left-6 "
   initial={{ scale: 0.8, opacity: 0 }}
   animate={{ scale: 1, opacity: 1 }}
   transition={{ duration: 0.5 }}
 >
-  <Link to="/" className="flex items-center">
+  <Link to="/" className="flex items-center ">
     <motion.div 
       className="text-white text-3xl font-bold tracking-tight flex items-center"
       whileHover={{ scale: 1.05 }}
