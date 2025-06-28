@@ -94,9 +94,9 @@ const Tool = () => {
           {/* Trust Indicators */}
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.7, delay: 0.3 }} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-10">
             {[
-              { icon: <FiShield />, title: "HIPAA Compliant", desc: "Your data is encrypted and never stored" },
-              { icon: <FiCheckCircle />, title: "Clinically Validated", desc: "Algorithms reviewed by pharmacologists" },
-              { icon: <FiClipboard />, title: "Evidence-Based", desc: "Using peer-reviewed interaction data" }
+              { icon: <FiShield />, title: "HIPAA Compliant", desc: "" },
+              { icon: <FiCheckCircle />, title: "Clinically Validated", desc: "" },
+              { icon: <FiClipboard />, title: "Evidence-Based", desc: "" }
             ].map((item, index) => (
               <div key={index} className="bg-white/5 border border-white/10 rounded-lg p-4 flex flex-col sm:flex-row items-start sm:items-center">
                 <div className="p-2 bg-teal-500/10 rounded-full text-teal-300 mr-0 sm:mr-3 mb-3 sm:mb-0">{item.icon}</div>
