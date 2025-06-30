@@ -2,13 +2,18 @@ import workspaceImage from "../assets/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg"
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import face from '../assets/face.jpg';
+
+import face1 from '../assets/face11.jpeg';
+import face2 from '../assets/face22.jpeg';
+import face3 from '../assets/face33.jpeg';
+import face4 from '../assets/face444.jpeg';
+
 import faqimg from '../assets/kenny-eliason-1-aA2Fadydc-unsplash.jpg';
 
 
 const TeamSection = () => {
 
-const teamImages = [face, face, face, face];
+const teamImages = [face1, face2, face3, face4];
 
   const faqs = [
     {
@@ -105,8 +110,8 @@ const teamImages = [face, face, face, face];
 
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-4">
          {teamImages.map((imgSrc, i) => (
-    <div key={i} className="bg-lime-600">
-      <img src={imgSrc} alt={`team-${i}`} className="w-full h-auto object-contain" />
+    <div key={i} className="bg-black">
+      <img src={imgSrc} alt={`team-${i}`} className="w-50 h-60 object-cover" />
     </div>
   ))}
 </div>
