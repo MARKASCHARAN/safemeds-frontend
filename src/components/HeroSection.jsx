@@ -6,7 +6,7 @@ import bgImage from '../assets/kurt-wang-acZWNwWv_zU-unsplash.jpg';
 const HeroSection = () => {
   return (
     <div
-      className=" relative min-h-screen bg-cover  bg-center flex flex-col justify-center items-start text-left px-6 md:px-20 overflow-scroll "
+      className=" relative min-h-screen bg-cover  bg-center flex flex-col justify-center items-start text-left px-6 md:px-20 overflow-clip "
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       

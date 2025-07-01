@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import FeatureCards from '../components/FeatureCards';
 import HowToUse from '../components/HowToUse';
 import Footer from '../components/Footer';
+// import News from '../components/News';
 
 
 const LandingLayout = ({ children }) => {
@@ -13,6 +14,7 @@ const LandingLayout = ({ children }) => {
       <HeroSection />
       <FeatureCards />
       <HowToUse />
+      {/* <News /> */}
       <Footer />  
     
       <main className="flex-grow">{children}</main>

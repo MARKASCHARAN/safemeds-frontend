@@ -4,11 +4,11 @@
   src: url('/fonts/Monasans-Regular.ttf') format('truetype');
 }
 
-.scrollbar-hide::-webkit-scrollbar {
+/* .scrollbar-hide::-webkit-scrollbar {
   display: none;
-}
-.scrollbar-hide {
+} */
+/* .scrollbar-hide {
   -ms-overflow-style: none;  
   scrollbar-width: none;     
-}
+} */
 
