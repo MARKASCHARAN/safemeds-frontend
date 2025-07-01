@@ -37,7 +37,7 @@ const HeroSection = () => {
       </div>
       </div>
 
-      <div className="absolute bottom-14 left-8 hidden md:block animate-floatSlow z-10">
+      <div className="absolute bottom-14 left-158 hidden md:block animate-floatSlow z-10">
       <div className="bg-white/10 backdrop-blur-md border border-white/30 text-white p-4 rounded-xl w-56 shadow-lg">
       <p className="text-xl font-semibold text-lime-400">
       ⚠️ 8% of hospitalizations are ADR-related
