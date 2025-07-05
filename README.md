@@ -1,12 +1,58 @@
-# React + Vite
+# 🚀 SafeMeds — AI-Powered Drug Interaction Checker
+# 🥈 1st Runner-Up | ₹75,000 Prize | AI/ML Hackathon 2.0 by Parul University, myOnsite Healthcare & byteXL
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SafeMeds is a real-time, AI-powered clinical decision support tool that helps evaluate drug-to-drug interactions using natural language input. Designed to empower healthcare professionals and reduce medication risks.
 
-Currently, two official plugins are available:
+# 🧠 Tech Stack
+Frontend: React.js (Vercel)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Backend: Flask (Python, hosted on AWS EC2)
 
-## Expanding the ESLint configuration
+AI Model: LLaMA3-8B served via Groq API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Deployment: AWS, Vercel (Frontend), Custom Domain Setup
+
+# ✨ Features
+🔎 Natural Language Drug Queries
+Enter common language prompts like “Can I take ibuprofen with metformin?”
+
+⚙️ Groq + LLaMA3 AI Integration
+Interprets drug interactions using state-of-the-art LLMs.
+
+🖥️ Clean & Responsive UI
+Designed for clarity, accessibility, and usability for clinical professionals.
+
+🌐 Full Stack Deployment
+Integrated frontend + backend, deployed with scalable cloud infrastructure.
+
+👨‍💻 Team Roles
+Name	Role
+S. Charan Marka	Full Stack Developer, Integration Lead
+Nidhi Thakore	AWS Deployment, Domain Setup
+Ayushi Majumdar	UI/UX & Frontend Designer
+Dhrumin Upadhyay	ML & LLaMA3 Model Integration
+
+📸 Screenshots
+Add screenshots or a demo GIF here to showcase the app in action.
+
+🛠️ Getting Started (Frontend)
+
+# Clone the repository
+git clone https://github.com/your-username/SafeMeds-Frontend.git
+cd SafeMeds-Frontend
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+Make sure your backend (Flask API) is running and accessible for full functionality.
+
+# 🌍 Live Demo
+Try the Live App →
+(Replace with actual deployment URL)
+
+💬 Let's Discuss
+What do you think is the next big role of AI in Healthcare?
+Join the conversation on LinkedIn or share your feedback!
+
