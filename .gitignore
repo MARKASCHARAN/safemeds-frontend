@@ -26,3 +26,4 @@ dist-ssr
 # Ignore all env files except .env.production
 .env*
 !.env.production
+.env.production
