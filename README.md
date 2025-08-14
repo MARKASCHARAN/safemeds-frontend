@@ -1,42 +1,67 @@
 # 🚀 SafeMeds — AI-Powered Drug Interaction Checker
-# 🥈 1st Runner-Up | ₹75,000 Prize | AI/ML Hackathon 2.0 by Parul University, myOnsite Healthcare & byteXL
 
-SafeMeds is a real-time, AI-powered clinical decision support tool that helps evaluate drug-to-drug interactions using natural language input. Designed to empower healthcare professionals and reduce medication risks.
+![SafeMeds Screenshot 1](assets/safemeds-1.png)
+![SafeMeds Screenshot 2](assets/safemeds-2.png)
 
-# 🧠 Tech Stack
-Frontend: React.js (Vercel)
+🥈 **1st Runner-Up | ₹75,000 Prize**  
+🏆 *AI/ML Hackathon 2.0 by Parul University, myOnsite Healthcare & byteXL*
 
-Backend: Flask (Python, hosted on AWS EC2)
+[![React](https://img.shields.io/badge/Frontend-React.js-blue?logo=react)](https://react.dev/)
+[![Flask](https://img.shields.io/badge/Backend-Flask-black?logo=flask)](https://flask.palletsprojects.com/)
+[![AWS](https://img.shields.io/badge/Cloud-AWS-orange?logo=amazon-aws)](https://aws.amazon.com/)
+[![Groq API](https://img.shields.io/badge/AI-Groq_API-purple)](https://groq.com/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-AI Model: LLaMA3-8B served via Groq API
+---
 
-Deployment: AWS, Vercel (Frontend), Custom Domain Setup
+## 📖 Overview
+SafeMeds is a **real-time, AI-powered clinical decision support tool** that evaluates **drug-to-drug interactions** using **natural language queries**.  
+It helps healthcare professionals **reduce medication risks** and **make faster, safer decisions**.
 
-# ✨ Features
-🔎 Natural Language Drug Queries
-Enter common language prompts like “Can I take ibuprofen with metformin?”
+---
 
-⚙️ Groq + LLaMA3 AI Integration
-Interprets drug interactions using state-of-the-art LLMs.
+## 🧠 Tech Stack
+**Frontend:** React.js (Vercel)  
+**Backend:** Flask (Python, AWS EC2)  
+**AI Model:** LLaMA3-8B via Groq API  
+**Deployment:** AWS, Vercel (Frontend), Custom Domain Setup  
 
-🖥️ Clean & Responsive UI
-Designed for clarity, accessibility, and usability for clinical professionals.
+---
 
-🌐 Full Stack Deployment
-Integrated frontend + backend, deployed with scalable cloud infrastructure.
+## ✨ Features
+- 🔎 **Natural Language Drug Queries**  
+  Example: *"Can I take ibuprofen with metformin?"* → AI responds with safety analysis.  
 
-👨‍💻 Team Roles
-Name	Role
-S. Charan Marka	Full Stack Developer, Integration Lead
-Nidhi Thakore	AWS Deployment, Domain Setup
-Ayushi Majumdar	UI/UX & Frontend Designer
-Dhrumin Upadhyay	ML & LLaMA3 Model Integration
+- ⚙️ **Groq + LLaMA3 AI Integration**  
+  State-of-the-art LLMs for clinical drug interaction interpretation.  
 
-📸 Screenshots
-Add screenshots or a demo GIF here to showcase the app in action.
+- 🖥️ **Clean & Responsive UI**  
+  Optimized for clarity and accessibility for healthcare professionals.  
 
-🛠️ Getting Started (Frontend)
+- 🌐 **Full Stack Deployment**  
+  Scalable cloud infrastructure with integrated frontend & backend.
 
+---
+
+## 👨‍💻 Team Roles
+| Name | Role |
+|------|------|
+| **S. Charan Marka** [🔗 GitHub](https://github.com/MARKASCHARAN) • [🔗 LinkedIn](https://linkedin.com/in/markascharan) | Full Stack Developer, Integration Lead |
+| **Nidhi Thakore** [🔗 GitHub](https://github.com/nidhi-thakore) • [🔗 LinkedIn](https://linkedin.com/in/nidhi-thakore) | AWS Deployment, Domain Setup |
+| **Ayushi Majumdar** [🔗 GitHub](https://github.com/ayushi-majumdar) • [🔗 LinkedIn](https://linkedin.com/in/ayushi-majumdar) | UI/UX & Frontend Designer |
+| **Dhrumin Upadhyay** [🔗 GitHub](https://github.com/dhrumin-upadhyay) • [🔗 LinkedIn](https://linkedin.com/in/dhrumin-upadhyay) | ML & LLaMA3 Model Integration |
+
+---
+
+## 📸 Screenshots
+![SafeMeds UI 1](assets/safemeds-ui-1.png)
+![SafeMeds UI 2](assets/safemeds-ui-2.png)
+
+---
+
+## 🛠️ Getting Started (Frontend)
+
+```bash
 # Clone the repository
 git clone https://github.com/your-username/SafeMeds-Frontend.git
 cd SafeMeds-Frontend
@@ -46,13 +71,3 @@ npm install
 
 # Start development server
 npm run dev
-Make sure your backend (Flask API) is running and accessible for full functionality.
-
-# 🌍 Live Demo
-Try the Live App →
-(Replace with actual deployment URL)
-
-💬 Let's Discuss
-What do you think is the next big role of AI in Healthcare?
-Join the conversation on LinkedIn or share your feedback!
-
