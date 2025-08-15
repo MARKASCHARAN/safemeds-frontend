@@ -1,16 +1,14 @@
 # 🚀 SafeMeds — AI-Powered Drug Interaction Checker
 # 🥈 **1st Runner-Up |🏆 **AI/ML Hackathon 2.0 by Parul University, myOnsite Healthcare & byteXL**
-
-## 📸 Imgs :
-![SafeMeds Screenshot 1](src/assets/safemeds-1.png)
-![SafeMeds Screenshot 2](src/assets/safemeds-2.jpeg)
-
-
 [![React](https://img.shields.io/badge/Frontend-React.js-blue?logo=react)](https://react.dev/)
 [![Flask](https://img.shields.io/badge/Backend-Flask-black?logo=flask)](https://flask.palletsprojects.com/)
 [![AWS](https://img.shields.io/badge/Cloud-AWS-orange?logo=amazon-aws)](https://aws.amazon.com/)
 [![Groq API](https://img.shields.io/badge/AI-Groq_API-purple)](https://groq.com/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+## 📸 Imgs :
+![SafeMeds Screenshot 1](src/assets/safemeds-1.png)
+![SafeMeds Screenshot 2](src/assets/safemeds-2.jpeg)
 
 ---
 
